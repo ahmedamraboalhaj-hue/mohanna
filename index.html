@@ -21,7 +21,7 @@
             <ul class="nav-links">
                 <li><a href="#home">الرئيسية</a></li>
                 <li><a href="#about">السيرة الذاتية</a></li>
-                <li><a href="#video">فيديو مختار</a></li>
+                <li><a href="#video">ألبوم الفيديوهات</a></li>
                 <li><a href="#gallery">معرض الصور</a></li>
                 <li><a href="#achievements">الإنجازات</a></li>
                 <li><a href="#contact">اتصل بنا</a></li>
@@ -74,10 +74,12 @@
 
     <section id="video" class="video-section">
         <div class="container">
-            <h2 class="section-title">تلاوة مرئية مختارة</h2>
-            <div class="video-player-outer reveal">
-                <div class="video-player-inner">
-                    <div class="video-thumbnail" id="videoThumbnail">
+            <h2 class="section-title">ألبوم الفيديوهات</h2>
+
+            <!-- Video 1 -->
+            <div class="video-player-outer reveal" style="margin-bottom: 50px;">
+                <div class="video-player-inner" id="playerInner1">
+                    <div class="video-thumbnail" onclick="playVideo('btw6iutDaSU', 'playerInner1', 'player1')">
                         <img src="https://img.youtube.com/vi/btw6iutDaSU/maxresdefault.jpg"
                             alt="تلاوة القارئ مهنا ربيع">
                         <div class="play-btn-wrapper">
@@ -86,7 +88,119 @@
                             </div>
                         </div>
                     </div>
-                    <div id="player" class="player-iframe"></div>
+                    <div id="player1" class="player-iframe"></div>
+                </div>
+            </div>
+
+            <!-- Video 2 -->
+            <div class="video-player-outer reveal" style="margin-bottom: 50px;">
+                <div class="video-player-inner" id="playerInner2">
+                    <div class="video-thumbnail" onclick="playVideo('Geprdilj_i4', 'playerInner2', 'player2')">
+                        <img src="https://img.youtube.com/vi/Geprdilj_i4/maxresdefault.jpg"
+                            alt="تلاوة القارئ مهنا ربيع">
+                        <div class="play-btn-wrapper">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="player2" class="player-iframe"></div>
+                </div>
+            </div>
+
+            <!-- Video 3 -->
+            <div class="video-player-outer reveal" style="margin-bottom: 50px;">
+                <div class="video-player-inner" id="playerInner3">
+                    <div class="video-thumbnail" onclick="playVideo('D5rRzD5ozqg', 'playerInner3', 'player3')">
+                        <img src="https://img.youtube.com/vi/D5rRzD5ozqg/maxresdefault.jpg"
+                            alt="تلاوة القارئ مهنا ربيع">
+                        <div class="play-btn-wrapper">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="player3" class="player-iframe"></div>
+                </div>
+            </div>
+
+            <!-- Video 4 -->
+            <div class="video-player-outer reveal" style="margin-bottom: 50px;">
+                <div class="video-player-inner" id="playerInner4">
+                    <div class="video-thumbnail" onclick="playVideo('2trTGAj5GMM', 'playerInner4', 'player4')">
+                        <img src="https://img.youtube.com/vi/2trTGAj5GMM/maxresdefault.jpg"
+                            alt="تلاوة القارئ مهنا ربيع">
+                        <div class="play-btn-wrapper">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="player4" class="player-iframe"></div>
+                </div>
+            </div>
+
+            <!-- Video 5 -->
+            <div class="video-player-outer reveal" style="margin-bottom: 50px;">
+                <div class="video-player-inner" id="playerInner5">
+                    <div class="video-thumbnail" onclick="playVideo('JgK2q1ukpho', 'playerInner5', 'player5')">
+                        <img src="https://img.youtube.com/vi/JgK2q1ukpho/maxresdefault.jpg"
+                            alt="تلاوة القارئ مهنا ربيع">
+                        <div class="play-btn-wrapper">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="player5" class="player-iframe"></div>
+                </div>
+            </div>
+
+            <!-- Video 6 -->
+            <div class="video-player-outer reveal" style="margin-bottom: 50px;">
+                <div class="video-player-inner" id="playerInner6">
+                    <div class="video-thumbnail" onclick="playVideo('aaO-dmusDOo', 'playerInner6', 'player6')">
+                        <img src="https://img.youtube.com/vi/aaO-dmusDOo/maxresdefault.jpg"
+                            alt="تلاوة القارئ مهنا ربيع">
+                        <div class="play-btn-wrapper">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="player6" class="player-iframe"></div>
+                </div>
+            </div>
+
+            <!-- Video 7 -->
+            <div class="video-player-outer reveal" style="margin-bottom: 50px;">
+                <div class="video-player-inner" id="playerInner7">
+                    <div class="video-thumbnail" onclick="playVideo('2eOJS3Po5_I', 'playerInner7', 'player7')">
+                        <img src="https://img.youtube.com/vi/2eOJS3Po5_I/maxresdefault.jpg"
+                            alt="تلاوة القارئ مهنا ربيع">
+                        <div class="play-btn-wrapper">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="player7" class="player-iframe"></div>
+                </div>
+            </div>
+
+            <!-- Video 8 -->
+            <div class="video-player-outer reveal">
+                <div class="video-player-inner" id="playerInner8">
+                    <div class="video-thumbnail" onclick="playVideo('ZXewgy20qAs', 'playerInner8', 'player8')">
+                        <img src="https://img.youtube.com/vi/ZXewgy20qAs/maxresdefault.jpg"
+                            alt="تلاوة القارئ مهنا ربيع">
+                        <div class="play-btn-wrapper">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="player8" class="player-iframe"></div>
                 </div>
                 <div class="video-details">
                     <div class="detail-item">
