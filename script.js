@@ -52,3 +52,26 @@ if (contactForm) {
         window.open(whatsappUrl, '_blank');
     });
 }
+
+// YouTube Video Player logic
+const videoThumbnail = document.getElementById('videoThumbnail');
+if (videoThumbnail) {
+    videoThumbnail.addEventListener('click', () => {
+        const playerInner = videoThumbnail.parentElement;
+        playerInner.classList.add('playing');
+
+        // Add the iframe dynamically after click for faster initial page load
+        const playerDiv = document.getElementById('player');
+        if (playerDiv) {
+            playerDiv.innerHTML = `<iframe 
+                src="https://www.youtube.com/embed/btw6iutDaSU?autoplay=1&rel=0&showinfo=0&modestbranding=1" 
+                title="تلاوة القارئ مهنا ربيع" 
+                class="player-iframe"
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen
+                referrerpolicy="strict-origin-when-cross-origin">
+            </iframe>`;
+        }
+    });
+}
